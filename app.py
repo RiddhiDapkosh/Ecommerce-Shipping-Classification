@@ -122,4 +122,5 @@ if st.checkbox("Show Correlation Heatmap"):
     plt.figure(figsize=(10,6))
     sns.heatmap(df.corr(), cmap="coolwarm")
     st.pyplot(plt)
-```
+
+
